@@ -6,7 +6,7 @@
 /*   By: alalonzo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/12 12:12:26 by alalonzo          #+#    #+#             */
-/*   Updated: 2020/12/06 03:16:49 by alalonzo         ###   ########.fr       */
+/*   Updated: 2021/02/23 17:44:38 by alalonzo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 
+int		ft_indexof(char *s, int c);
 int		ft_isspace(int c);
 int		ft_numlen(unsigned int n);
 void	ft_putchar(char c);
