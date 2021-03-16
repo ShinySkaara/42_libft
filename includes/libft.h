@@ -6,7 +6,7 @@
 /*   By: alalonzo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/12 12:12:26 by alalonzo          #+#    #+#             */
-/*   Updated: 2021/02/23 17:44:38 by alalonzo         ###   ########.fr       */
+/*   Updated: 2021/03/16 13:56:39 by alalonzo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@
 
 int		ft_indexof(char *s, int c);
 int		ft_isspace(int c);
+void	*ft_memcpy(void *dst, const void *src, size_t n);
+void	*ft_memset(void *s, int c, size_t len);
 int		ft_numlen(unsigned int n);
 void	ft_putchar(char c);
 void	ft_putchar_fd(char c, int fd);
