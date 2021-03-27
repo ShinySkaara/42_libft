@@ -6,7 +6,7 @@
 /*   By: alalonzo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/12 12:12:26 by alalonzo          #+#    #+#             */
-/*   Updated: 2021/03/17 03:03:33 by alalonzo         ###   ########.fr       */
+/*   Updated: 2021/03/27 17:05:46 by alalonzo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 
+void			ft_hexdump(void *data, size_t size);
 int				ft_indexof(char *s, int c);
 int				ft_isspace(int c);
 unsigned int	ft_leftrotate(unsigned int n, int offset);
