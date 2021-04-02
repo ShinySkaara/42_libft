@@ -6,7 +6,7 @@
 /*   By: alalonzo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/12 12:12:26 by alalonzo          #+#    #+#             */
-/*   Updated: 2021/04/01 21:00:21 by alalonzo         ###   ########.fr       */
+/*   Updated: 2021/04/02 22:00:08 by alalonzo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@
 # include <unistd.h>
 # include <stdlib.h>
 
-unsigned int	ft_byteswap32(unsigned int x);
-unsigned long	ft_byteswap64(unsigned long x);
 void			ft_hexdump(void *data, size_t size);
 int				ft_indexof(char *s, int c);
 int				ft_isspace(int c);

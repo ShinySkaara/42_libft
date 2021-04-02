@@ -10,7 +10,7 @@ O_PATH = ./objs/
 
 H_PATH = ./includes/
 
-SRCS_F = ft_byteswap32.c ft_byteswap64.c ft_hexdump.c ft_indexof.c \
+SRCS_F = ft_hexdump.c ft_indexof.c \
 		 ft_isspace.c ft_leftrotate.c ft_memcpy.c ft_memset.c ft_numlen.c \
 		 ft_putchar.c ft_putchar_fd.c ft_putnbr.c ft_putnbr_fd.c ft_putstr.c \
 		 ft_putstr_fd.c ft_rightrotate.c ft_stralloc.c ft_strcasecmp.c \
