@@ -6,7 +6,7 @@
 /*   By: alalonzo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/12 12:12:26 by alalonzo          #+#    #+#             */
-/*   Updated: 2021/04/03 16:16:11 by alalonzo         ###   ########.fr       */
+/*   Updated: 2021/04/09 12:04:21 by alalonzo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 void			ft_hexdump(void *data, size_t size);
 int				ft_indexof(char *s, int c);
 int				ft_isspace(int c);
-unsigned int	ft_leftrotate(unsigned int n, int offset);
 void			*ft_memcpy(void *dst, const void *src, size_t n);
 void			*ft_memrev(void *m, size_t size);
 void			*ft_memset(void *s, int c, size_t len);
@@ -30,7 +29,6 @@ void			ft_putnbr(int nb);
 void			ft_putnbr_fd(int n, int fd);
 void			ft_putstr(char const *s);
 void			ft_putstr_fd(char const *s, int fd);
-unsigned int	ft_rightrotate(unsigned int n, int offset);
 char			*ft_stralloc(size_t n);
 int				ft_strcasecmp(const char *s1, const char *s2);
 char			*ft_strchr(const char *s, int c);
